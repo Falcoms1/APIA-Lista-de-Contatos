@@ -1,0 +1,30 @@
+{
+  "name": "api-lista-de-contatos",
+  "version": "1.0.0",
+  "description": "API lista de contatos",
+  "homepage": "https://github.com/Falcoms1/APIA-Lista-de-Contatos#readme",
+  "bugs": {
+    "url": "https://github.com/Falcoms1/APIA-Lista-de-Contatos/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Falcoms1/APIA-Lista-de-Contatos.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start":"node --import=tsx --watch ./src/server.ts"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "helmet": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.6.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
