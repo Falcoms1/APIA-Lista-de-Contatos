@@ -1,0 +1,13 @@
+API Lista de Contatos
+
+Funcionalidades gerais
+- Criar um novo Contato
+- Listar os Contatos
+- Excluir o contato
+
+
+Planejando de rotas 
+- POST /contato {name:"nego"}
+- GET /contatos
+- DELETE /contato {name:"nego"}
+
