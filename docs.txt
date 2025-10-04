@@ -9,5 +9,5 @@ Funcionalidades gerais
 Planejando de rotas 
 - POST /contato {name:"nego"}
 - GET /contatos
-- DELETE /contato {name:"nego"}
+- DELETE /contato?name=nego
 
